@@ -65,4 +65,14 @@ public class Tapa {
     public void setIngredients(String ingredients) {
         this.ingredients = ingredients;
     }
+
+    @Override
+    public String toString() {
+        return  "ID: " + id + "\n" +
+                "Name: " + name + "\n" +
+                "Participations: " + participations + "\n" +
+                "Total Points: " + totalPoints + "\n" +
+                "Votes: " + votes + "\n" +
+                "Ingredients: " + ingredients + "\n" + "\n";
+    }
 }

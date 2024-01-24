@@ -6,4 +6,9 @@ public interface TapaRepository {
 
     public ArrayList<Tapa> obtainTapas();
     public Tapa obtainTapa(String tapaId);
+    Tapa deleteTapa(String tapaId);
+    void saveTapa(Tapa tapa);
+
+    void updateTapa(Tapa tapa);
+
 }
