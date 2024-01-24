@@ -27,7 +27,7 @@ public class Main {
                 MainTapas.prtintTapas();
 
                 break;
-            case "2":
+            case "2": //No funciona no se por que
                 System.out.println("Introduce el ID de la tapa que quieres VER: ");
                 String id = sc.nextLine();
 
@@ -44,6 +44,8 @@ public class Main {
                 MainTapas.deleteTapa(idDel);
 
                 System.out.println("La tapa con ID " + idDel + " ha sido borrada" );
+
+                MainTapas.prtintTapas();
 
                 break;
 
